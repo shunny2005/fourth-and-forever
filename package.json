@@ -1,0 +1,12 @@
+{
+  "name": "fourth-and-forever",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check app.js && node --check engine.js && node --check football.js && node --check game.js",
+    "build": "node scripts/build.mjs"
+  }
+}
